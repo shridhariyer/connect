@@ -2,6 +2,7 @@
 /**
 * Checks the connection to the local install of MySQL
 * Modified By: Shridhar Iyer
+* Modified to check for pull operation
 */
 require_once('db.php');
 if (!$dbconn = mysql_connect(DB_HOST, DB_USER, DB_PW)) {
