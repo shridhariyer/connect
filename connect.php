@@ -1,6 +1,7 @@
 <?php
 /**
 * Checks the connection to the local install of MySQL
+* Modified By: Shridhar Iyer
 */
 require_once('db.php');
 if (!$dbconn = mysql_connect(DB_HOST, DB_USER, DB_PW)) {
